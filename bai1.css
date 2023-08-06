@@ -1,0 +1,68 @@
+.wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+.tieude{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.chu {
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    left: 10;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.card a {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    background: greenyellow;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding-inline-start: 15px 0;
+}
+
+.size {
+    font-weight: 800;
+    text-align: center;
+}
+
+.giatien {
+    justify-content: center;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body header {
+    color: whitesmoke;
+}
+
+/* footer */
+.fotso1 {
+    height: 300px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fotso1 mediabox ul li {
+    display: flex;
+    justify-content: space-between;
+}
